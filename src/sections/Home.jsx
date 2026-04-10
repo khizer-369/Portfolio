@@ -4,6 +4,7 @@ import Particles from '../components/Particles';
 import SocialIcons from '../components/SocialIcons';
 
 const Home = () => {
+  console.log(Resume);
   return (
     <section id='home' className='relative h-[200vh] lg:h-screen'>
       <div className='absolute h-[200vh] lg:h-screen w-full z-0'>
@@ -37,7 +38,7 @@ const Home = () => {
           <p className='lg:w-[85%] text-gray-300 sm:text-lg text-center lg:text-start'>I'm a MERN stack developer who enjoys building clean and responsive web applications. I like turning ideas into real products with modern technologies.</p>
           <div className='flex gap-10 justify-center lg:justify-start'>
             <a href='#projects' className='Gradient h-13 w-38 rounded-full cursor-pointer text-lg font-medium hover:scale-105 transition-all text-center pt-3'>View My Work</a>
-            <a className='bg-white text-black h-13 w-38 rounded-full cursor-pointer font-medium hover:scale-105 transition-all outline-none text-center pt-3.5'>My Resume</a>
+            <a href="/Resume.pdf" download className='bg-white text-black h-13 w-38 rounded-full cursor-pointer font-medium hover:scale-105 transition-all outline-none text-center pt-3.5'>My Resume</a>
           </div>
           <SocialIcons />
         </div>
