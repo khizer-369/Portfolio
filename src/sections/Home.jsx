@@ -4,7 +4,6 @@ import Particles from '../components/Particles';
 import SocialIcons from '../components/SocialIcons';
 
 const Home = () => {
-  console.log(Resume);
   return (
     <section id='home' className='relative h-[200vh] lg:h-screen'>
       <div className='absolute h-[200vh] lg:h-screen w-full z-0'>
