@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
           <div className='relative h-122 md:h-125 w-[95%] sm:w-[55%] md:w-[35%] shrink-0 rounded-lg overflow-hidden flex justify-center items-end'>
             <img src="/portfolio-image.jpg" alt="portfolio image" className='absolute h-full w-full duration-250 hover:scale-102 z-0' />
-            <a href="https://khizer-motion-portfolio.vercel.app/" target='_blank' className='h-10 w-30 absolute mb-2 bg-white text-black rounded-md text-center font-medium pt-2 duration-300 hover:bg-white/85'>View Project</a>
+            <a href="https://khizer.dev/" target='_blank' className='h-10 w-30 absolute mb-2 bg-white text-black rounded-md text-center font-medium pt-2 duration-300 hover:bg-white/85'>View Project</a>
           </div>
         </motion.div>
       </div>

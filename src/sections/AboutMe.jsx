@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div className='relative h-screen flex justify-center items-center'>
         <div className=' md:h-110 md:w-[94%] lg:h-100 lg:w-250 flex flex-col md:flex-row gap-7'>
           <div className='relative flex justify-center'>
-            <motion.div initial={{ x: -30, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.35, ease: "linear" }} className='bg-linear-to-br from-[#2b7a78] via-[#3aafa9] to-[#def2f1] h-45 w-45 rounded-xl'>
+            <motion.div initial={{ x: -30, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.35, ease: "linear" }} className='bg-linear-to-br from-[#2b7a78] via-[#3aafa9] to-[#def2f1] h-45 w-45 rounded-xl overflow-hidden'>
               <img src="/profile-image.png" alt="profile photo" className='h-full w-full' />
             </motion.div>
           </div>
